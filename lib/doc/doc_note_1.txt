@@ -1,0 +1,45 @@
+
+
+
+插件：
+    1. Flutter Snippets
+
+
+
+SizeBox + Container
+SizeBox   : 控制width、height
+Container : 控制color、margin、padding
+
+
+
+单例：
+
+class ShardPreferencesUtil {
+  ShardPreferencesUtil._(); //私有构造方法
+
+  static ShardPreferencesUtil _instance;
+
+  static ShardPreferencesUtil getInstance() {
+    if (_instance == null) {
+      _instance = ShardPreferencesUtil._();
+    }
+    return _instance;
+  }
+
+  void get(){}
+}
+
+
+原生应用跳转到dart用startactivity跳转到一个继承flutteractivity的普通activity
+
+
+
+
+
+
+
+
+
+
+
+

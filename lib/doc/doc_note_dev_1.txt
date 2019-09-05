@@ -1,0 +1,31 @@
+
+
+flutter snippets用法
+alertDialog     Creates a showDialog that returns with AlertDialog
+animBldr        Creates an AnimationBuilder
+futureBldr      Creates a FutureBuilder
+listViewBldr    Creates a ListView.builder()
+scfAll          Creates a Scaffold containing an Appbar, BottomNavigationBar and FloatingActionButton
+scfAppBar       Creates a Scaffold containing an Appbar
+scfAppBarFab    Creates a Scaffold containing an Appbar and Floating Action Button
+scfAppBarBtmNav Creates a Scaffold containing an Appbar and Bottom Navigation Bar
+streamBldr      Creates a StreamBuilder
+
+
+1. GestureDetector
+2. Button
+3. 动画
+    static SlideTransition createTransition(
+      Animation<double> animation, Widget child) {
+        return new SlideTransition(
+            position: new Tween<Offset>(
+            begin: const Offset(1.0, 0.0),
+            end: const Offset(0.0, 0.0),
+        ).animate(animation),
+            child: child,
+        );
+    }
+
+
+keytool -genkey -v -keystore D:\key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias key
+全是123456
